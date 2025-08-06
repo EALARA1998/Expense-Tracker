@@ -20,7 +20,7 @@ Librerías externas
 - react-date-picker
 
 Capturas de pantalla
-![Pantalla principal](assets/screenshot 2025-08-06 1.png)
+![Pantalla principal](assets/screenshot%2025-08-06%1.png)
 
 Instalación
 - npm install
