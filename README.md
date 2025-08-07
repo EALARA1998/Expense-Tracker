@@ -1,4 +1,4 @@
-Expense Tracker
+# Expense Tracker
 - Aplicación web para el control de gastos personales en relación con un presupuesto establecido.
 
 Tecnologías utilizadas
