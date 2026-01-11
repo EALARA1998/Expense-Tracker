@@ -1,34 +1,49 @@
 # Expense Tracker
-- Aplicación web para el control de gastos personales en relación con un presupuesto establecido.
 
-Tecnologías utilizadas
-- Vite
-- React
-- TypeScript
-- HTML
-- CSS
-- TailwindCSS
+Web application for tracking personal expenses in relation to a defined budget.
 
-Diseño y arquitectura
-- Context API
-- useReducer
-- Custom Hooks
+The application allows users to set a budget, register expenses, and visualize spending progress in a clear and interactive way.
 
-Librerías externas
-- react-circular-progressbar
-- react-swipeable-list
-- react-date-picker
+## Features
+- Define and manage a personal budget
+- Register, edit, and delete expenses
+- Visual budget usage with progress indicators
+- Expense filtering and swipe actions
+- Responsive and user-friendly interface
 
-Capturas de pantalla
-![Pantalla principal](assets/screenshot%2025-08-06%1.png)
+## Tech Stack
+- Frontend: React, TypeScript
+- Styling: Tailwind CSS
+- UI Components: Headless UI, Heroicons
+- State & Logic: React Hooks
+- Charts: react-circular-progressbar
+- Dates: react-date-picker
+- Interactions: react-swipeable-list
 
-Instalación
+## Environment Variables
+Create a `.env` (backend) and `.env.local` (frontend) files in the root of the project and define the following variables:
+
+### Backend
+-
+
+### Frontend
+-
+
+## Installation & Setup
+
+### Backend
+-
+
+### Frontend
 - npm install
 - npm run dev
 
-Funcionalidades destacadas
-- Añadir, editar y eliminar gastos
-- Establecer y visualizar el presupuesto disponible
-- Visualización gráfica del progreso de gasto
-- Listado interactivo con gestos de deslizamiento
+## What I Learned
+- Managing application state related to budgets and expenses.
+- Implementing dynamic UI updates based on user input.
+- Designing intuitive financial tracking interfaces.
+- Working with interactive UI components and gestures.
+- Structuring React applications with reusable components.
 
+## Live Demo
+-
