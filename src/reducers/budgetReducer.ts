@@ -74,7 +74,7 @@ export const budgetReducer = (state: BudgetState = initialState, action: BudgetA
       return { ...state, editingId: action.payload.id, modal: true}
     }
     case "RESET-APP": {
-      return { initialState }
+      return initialState
     }
     case "ADD-FILTER-CATEGORY": {
       return { ...state, currentCategory: action.payload.id }

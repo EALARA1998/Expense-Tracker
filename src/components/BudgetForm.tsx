@@ -9,7 +9,7 @@ type BudgetFormProps = {
 export default function BudgetForm({}:BudgetFormProps) {
 
   const [budget, setBudget] = useState(0)
-  const { state, dispatch } = useBudget()
+  const { dispatch } = useBudget()
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     setBudget(+e.target.value)
